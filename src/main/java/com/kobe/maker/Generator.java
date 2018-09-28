@@ -1,4 +1,4 @@
-package com.maker;
+package com.kobe.maker;
 
 import org.junit.Test;
 import org.mybatis.generator.api.MyBatisGenerator;
