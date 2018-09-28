@@ -15,10 +15,10 @@ import java.util.List;
  * @ClassName: Generator
  * @Description: 逆向工程生成po类、Mapper接口文件、Mapper映射文件的主程序
  */
-public class Generator {	
+public class Generator {
 	@Test
-	public void generator() throws Exception{
-		URL url=this.getClass().getResource("/generator.xml");
+	public void generator() throws Exception {
+		URL url = this.getClass().getResource("/generator.xml");
 		List<String> warnings = new ArrayList<String>();
 		boolean overwrite = true;
 		File configFile = new File(url.toURI());
@@ -30,9 +30,9 @@ public class Generator {
 		myBatisGenerator.generate(null);
 		System.out.println("生成完毕...");
 	}
-	
+
 	@Test
-	public void test() throws Exception{
-			
+	public void test() throws Exception {
+		
 	}
 }
