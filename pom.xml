@@ -67,6 +67,11 @@
 			<scope>test</scope>
 		</dependency>
 		<!--驱动结束 -->
+		<dependency>
+			<groupId>com.rabbitmq</groupId>
+			<artifactId>amqp-client</artifactId>
+			<version>3.6.5</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
