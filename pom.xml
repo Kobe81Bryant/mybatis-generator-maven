@@ -72,6 +72,11 @@
 			<artifactId>amqp-client</artifactId>
 			<version>3.6.5</version>
 		</dependency>
+		<dependency>
+			<groupId>com.informix.jdbc</groupId>
+			<artifactId>com.springsource.com.informix.jdbc</artifactId>
+			<version>3.0.0.JC3</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
