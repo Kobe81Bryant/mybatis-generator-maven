@@ -60,6 +60,6 @@
         </javaClientGenerator>
 
         <!-- 指定数据库表 -->
-        <table tableName="ldzh_wx_gift"/>
+        <table tableName="user"/>
     </context>
 </generatorConfiguration>
