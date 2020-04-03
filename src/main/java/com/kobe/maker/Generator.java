@@ -30,9 +30,4 @@ public class Generator {
 		myBatisGenerator.generate(null);
 		System.out.println("生成完毕...");
 	}
-
-	@Test
-	public void test() throws Exception {
-		
-	}
 }
