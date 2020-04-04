@@ -12,18 +12,18 @@
             <property name="suppressAllComments" value="false"/>
         </commentGenerator>
         <!--Mysql数据库连接的信息：驱动类、连接地址、用户名、密码-->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+        <!--<jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://127.0.0.1:3306/test?useSSL=false"
                         userId="root"
                         password="root">
-        </jdbcConnection>
+        </jdbcConnection>-->
 
-        <!--informix驱动
+        <!--informix驱动-->
         <jdbcConnection driverClass="com.informix.jdbc.IfxDriver"
                         connectionURL="jdbc:informix-sqli://12.1.37.163:11004/ldzhdb:informixserver=beij_impl_ids;NEWLOCALE=zh_CN,zh_CN;NEWCODESET=gb18030,8859-1,819,utf8;IFX_USE_STRENC=true;"
                         userId="dxld"
                         password="dxld123">
-        </jdbcConnection>-->
+        </jdbcConnection>
 
         <!--Oracle数据库连接的信息：驱动类、连接地址、用户名、密码-->
         <!--<jdbcConnection driverClass="oracle.jdbc.OracleDriver"
@@ -60,6 +60,6 @@
         </javaClientGenerator>
 
         <!-- 指定数据库表 -->
-        <table tableName="user"/>
+        <table tableName="ldzh_wx_gift"/>
     </context>
 </generatorConfiguration>
